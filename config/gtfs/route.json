@@ -1,6 +1,48 @@
 {
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": true,
+    "route_short_name_to_route_id_configs": [
+        {
+            "route_short_name": "HHC",
+            "route_id": 8080300
+        },
+        {
+            "route_short_name": "IAC",
+            "route_id": 9010300
+        },
+        {
+            "route_short_name": "IAG",
+            "route_id": 9010700
+        },
+        {
+            "route_short_name": "IE",
+            "route_id": 905000
+        },
+        {
+            "route_short_name": "IV",
+            "route_id": 922000
+        },
+        {
+            "route_short_name": "MBCG",
+            "route_id": 1323700
+        },
+        {
+            "route_short_name": "QL",
+            "route_id": 1712000
+        },
+        {
+            "route_short_name": "RSA",
+            "route_id": 18190100
+        },
+        {
+            "route_short_name": "STSIL",
+            "route_id": 19200912
+        },
+        {
+            "route_short_name": "TBSC",
+            "route_id": 20219300
+        }
+    ],
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
     "trip_headsign_remove_via": true,
